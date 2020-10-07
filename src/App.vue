@@ -85,12 +85,11 @@ export default {
 
   mounted() {
   
-  if (localStorage.getItem('user')) {
+   if (localStorage.getItem('user')) {
       
       this.user = JSON.parse(localStorage.getItem('user'));
     
-    
-    } 
+   } 
   },
 
 
